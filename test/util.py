@@ -102,7 +102,7 @@ def find_data_dir_path():
 DATA_PATH = find_data_dir_path()
 
 
-def get_patch_path(fname, dirname=None, prefix='', suffix='', infix='', truncate=64):
+def get_patch_path(fname, dirname=None, prefix='', suffix='', infix='', truncate=100):
     """Return a patch filename, optionally truncated.
 
     The truncation code is copied in part from patch.py, so we match it.
